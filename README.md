@@ -11,17 +11,11 @@ A command-line interface that processes retail transactions.
 *   **Concepts:** Input buffer sanitization, string termination, and floating-point math.
 *   **Logic:** Uses arithmetic operations to calculate totals with 2-decimal precision.
 
-### 🌡️ Thermal Conversion Tool (`temp_conv.c`)
-A utility for switching between different temperature scales.
-*   **Concepts:** Conditional logic (`if/else`) and algebraic formula translation.
-*   **Logic:** Implements standard conversion formulas to handle real-time user data.
-
-### 💰 Interest Analytics (`interest_calc.c`)
-A financial tool used to project savings growth over time.
-*   **Concepts:** `math.h` library integration and operator precedence.
-*   **Logic:** Uses the power function to calculate compound growth based on user-defined variables.
-
----
+### 💰 Financial Growth Engine (`compoundinterest.c`)
+A precise tool for calculating long-term investment returns using the compound interest formula.
+*   **Key Implementation:** Integrated the `math.h` library to handle exponential calculations via the `pow()` function.
+*   **Focus:** Precision arithmetic using the `double` data type and complex operator precedence.
+*   **Logic:** Translates the formula $A = P(1 + r/n)^{nt} into functional C code.
 
 ## 🛠️ Tech & Tools
 *   **Language:** C
